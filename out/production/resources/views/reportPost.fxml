@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane prefHeight="404.0" prefWidth="600.0">
+            <children>
+                <Label layoutX="14.0" layoutY="29.0" prefHeight="23.0" prefWidth="262.0" text="Накладные от поставщиков">
+                    <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                    </font>
+                </Label>
+            <AnchorPane layoutX="45.0" layoutY="74.0" prefHeight="284.0" prefWidth="509.0">
+               <children>
+                  <TableView prefHeight="284.0" prefWidth="518.0">
+                    <columns>
+                      <TableColumn prefWidth="37.0" text="№" />
+                      <TableColumn prefWidth="272.0" text="Поставщик" />
+                        <TableColumn prefWidth="102.0" text="Дата" />
+                        <TableColumn prefWidth="106.0" text="Время" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+                
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

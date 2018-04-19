@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.trevts.MyFirstApp.controllers.AdminControllers">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="Product" layoutX="183.0" layoutY="176.0" mnemonicParsing="false" onAction="#buttonProduct" prefHeight="56.0" prefWidth="291.0" text="Товары" textFill="#07a10f">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font></Button>
+            <Label fx:id="Label" contentDisplay="TOP" layoutX="193.0" layoutY="30.0" prefHeight="48.0" prefWidth="341.0" text="Выберите раздел" textAlignment="CENTER" textFill="#7c7c7c" textOverrun="CLIP">
+               <font>
+                  <Font name="Times New Roman" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="Customer" layoutX="183.0" layoutY="259.0" mnemonicParsing="false" onAction="#buttonCustomer" prefHeight="56.0" prefWidth="291.0" text="Гости" textFill="#0913d7">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="Report" layoutX="183.0" layoutY="95.0" mnemonicParsing="false" onAction="#buttonReport" prefHeight="56.0" prefWidth="291.0" text="Отчеты" textFill="#eb1111">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

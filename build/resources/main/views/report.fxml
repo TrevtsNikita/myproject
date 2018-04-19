@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.trevts.MyFirstApp.controllers.ReportController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button layoutX="183.0" layoutY="176.0" mnemonicParsing="false" onAction="#But_Rep_Post" prefHeight="56.0" prefWidth="291.0" text="Накладные от поставщиков" textFill="#b90000">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font></Button>
+            <Label fx:id="Label" contentDisplay="TOP" layoutX="193.0" layoutY="30.0" prefHeight="48.0" prefWidth="341.0" text="Выберите раздел" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font name="Times New Roman" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="183.0" layoutY="259.0" mnemonicParsing="false" onAction="#But_Rep_Check" prefHeight="56.0" prefWidth="291.0" text="Товарные чеки" textFill="#8a0101">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="183.0" layoutY="95.0" mnemonicParsing="false" onAction="#But_Rep_Personal" prefHeight="56.0" prefWidth="291.0" text="Персонал" textFill="RED">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
